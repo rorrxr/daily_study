@@ -8,3 +8,5 @@ FROM CAR_RENTAL_COMPANY_CAR
 -- WHERE OPTIONS LIKE "%통풍시트%" OR OPTIONS LIKE "%가죽시트%" OR OPTIONS LIKE "%열선시트%"
 -- WHERE OPTIONS REGEXP '통풍시트|가죽시트|열선시트'
 ORDER BY CAR_TYPE ASC
+
+-- Q. 조건문 때문에 안 되는 거 같은데 정규식 표현도 찾아서 해봤는데 왜 안 될까요...?
