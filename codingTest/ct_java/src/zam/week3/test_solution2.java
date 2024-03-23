@@ -16,7 +16,20 @@ array의 2번째부터 5번째까지 자르면 [5, 2, 6, 3]입니다.
 commands의 모든 원소에 대해 앞서 설명한 연산을 적용했을 때 나온 결과를 배열에 담아 return 하도록 solution 함수를 작성해주세요.
 
 */
+import java.util.*;
 
 public class test_solution2 {
-
+	class Solution {
+	    public int[] solution(int[] array, int[][] commands) {
+	        int[] answer = new int[100];
+	        
+	        for(int i = 0; i < array.length; i++){
+	            for(int j = 0; j < commands.length; j++){
+	                //array[j]
+	            }
+	        }
+	        
+	        return answer;
+	    }
+	}
 }

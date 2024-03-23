@@ -23,5 +23,24 @@ https://school.programmers.co.kr/learn/courses/30/lessons/86491
 */
 
 public class test_solution1 {
-
+	class Solution {
+	    public int solution(int[][] sizes) {
+	        int answer = 0;
+	        
+	        int result = 0;
+	        int temp[][] = new int[10000][10000];
+	        
+	        for(int i = 0; i < sizes.length; i++){
+	            for(int j = 0; j < sizes[i].length; i++){
+	                temp[i][j] = i*j;
+	                if(result > temp[i][j])
+	                    answer = i*j;
+	            }
+	        }
+	        
+	        return answer;
+	    }
+	}
 }
+
+// Q. 2차원 배열 중첩 for문을 사용하여 가장 큰 값을 하려고 했는데 잘못 접근한 걸까요...?
