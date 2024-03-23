@@ -44,3 +44,25 @@ public class test_solution1 {
 }
 
 // Q. 2차원 배열 중첩 for문을 사용하여 가장 큰 값을 하려고 했는데 잘못 접근한 걸까요...?
+
+/*
+// https://adjh54.tistory.com/227
+// 브루트 포스?
+
+import java.util.*;
+class Solution {
+    public int solution(int[][] sizes) {
+        int answer = 0;
+        int max_v=0;
+        int max_h=0;
+        for(int i=0;i<sizes.length;i++){
+            int v=Math.max(sizes[i][0],sizes[i][1]);
+            int h=Math.min(sizes[i][0],sizes[i][1]);
+            max_v=Math.max(max_v,v);
+            max_h=Math.max(max_h,h);
+        }
+        return answer=max_v*max_h;
+    }
+}
+
+*/
